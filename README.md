@@ -20,5 +20,6 @@ Este projeto é um site dedicado ao universo dos games, trazendo vídeos interat
 - Vídeos locais em MP4
 - Animações CSS
 
-## 🌐 Visualização
-[Em breve - Link para o projeto online]
+## 🔗 Live Demo
+
+[👉 Clique aqui para ver o site online](https://mayconnsilva.github.io/projeto-games/)
