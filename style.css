@@ -407,7 +407,7 @@ footer ul {
     gap: 15px;
 }
 
-footer  a {
+footer > ul > li a {
     text-decoration: none;
     color: white;
     border: 1px solid aqua;
@@ -416,11 +416,24 @@ footer  a {
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.308);
 }
 
-footer a:hover {
+footer > ul > li a:hover {
     background-color: aqua;
     color: black;
     box-shadow: 0 0 15px white;
 }
+
+.link-git a{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: bolder;
+    transition: 0.5s ease;
+}
+
+.link-git a:hover {
+    transform: scaleY(1.1);
+}
+
 
 footer p {
     margin: 0 20px;
