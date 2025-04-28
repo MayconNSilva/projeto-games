@@ -8,6 +8,7 @@
 body {
     background-color: black;
     color: white;
+    overflow-x: hidden;
 }
 
 header {
@@ -533,7 +534,7 @@ footer p {
      
     }
     .card {
-        grid-column: 1 / 1;
+        grid-column: 1 / -1;
         grid-auto-rows: auto;
         width: 100%;
   
